@@ -681,7 +681,7 @@ function App() {
         </Reveal>
 
         <Reveal as="section" className="content-section projects-section" id="projects">
-          <SectionTitle number="03" eyebrow="Projets choisis" title="Le meilleur, c’est le concret." description="Quelques projets d’apprentissage et de conception — les liens de démonstration sont à remplacer par vos URLs réelles." />
+          <SectionTitle number="03" eyebrow="Projets choisis" title="Le meilleur, c’est le concret." description="Quelques projets d’apprentissage et de conception." />
           <div className="projects-toolbar">
             <div className="filter-list" aria-label="Filtrer les projets par technologie">
               {filters.map((filter) => (
